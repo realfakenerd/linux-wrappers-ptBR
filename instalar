@@ -1,0 +1,4 @@
+#! /bin/bash
+
+echo -e "\e[1;32mVocê escolheu instalar o\e[1;31m $* \e[1;32m<--"
+sudo apt-fast install "$@"

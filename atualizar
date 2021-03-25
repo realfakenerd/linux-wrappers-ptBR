@@ -1,0 +1,5 @@
+#! /bin/bash
+
+sudo apt update && sudo apt-fast upgrade -y
+
+echo -e "\e[1;32mEstá tudo atualizado!"

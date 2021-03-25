@@ -1,0 +1,4 @@
+#! /bin/bash
+
+echo -e "\e[1;32mVocê escolheu desinstalar o\e[1;31m $* \e[1;32m<--\e[0;37m"
+sudo apt-fast purge "$@"
